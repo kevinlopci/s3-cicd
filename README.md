@@ -18,6 +18,9 @@ The S3 bucket is used to store data. We will use it to host our staticwebsite an
 4-After clicking enable, other options will show such as name of index and error document,we will enter the excact same name that we will use for our files. Redirection rules are optional.
 5-Save changes.
 
+#Unblock public bucket access
+1-Go to permissions and simply uncheck block public bucket access
+
 #Granting public access
 1-We follow again the console and find the S3 Bucket.
 2-Click permissions and find bucket policy ,then click edit, here bucket policies can be pasted.
