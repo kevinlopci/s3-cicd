@@ -22,7 +22,8 @@ The S3 bucket is used to store data. We will use it to host our staticwebsite an
 #Granting public access
 1-We follow again the console and find the S3 Bucket.
 2-Click permissions and find bucket policy ,then click edit, here bucket policies can be pasted.
-On the official guide this template is recommnded to be pasted and grant only public read access (see bucketpolicy)
+On the official guide this template is recommnded to be pasted and grant only public read access (see bucketpolicy) [`readtemplate.json`](./readtemplate.json).
+
 
 
 
