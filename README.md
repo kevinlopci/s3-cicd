@@ -5,8 +5,7 @@ Before jumping in ,I want to tell you that I have completed the free basic Cloud
 #Creating a S3 Bucket
 1-Go to AWS and make sure you have an account.
 2-On the main Console, search S3 and click on it, from there you can create a bucket.
-3-Make sure you follow the official guide on granting public access as, this website is accesed publicly and can potentially lead to attacks as it is a very simple one.
-(https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html#step1-create-bucket-config-as-website)
+3-Make sure you follow the official guide on granting public access.
 4-For now I have only entered a name and clicked Create Bucket at the end of the page.
 The name must bu unique accross the entire platform.
 I named it kevinsgithubbucket
