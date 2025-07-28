@@ -61,10 +61,11 @@ In order to allow GitHub to access the S3 Bucket we need to create credentials t
 AWS_ACCESS_KEY_ID: Your IAM user's access key
 AWS_SECRET_ACCESS_KEY: Your IAM user's secret key
 S3_BUCKET_NAME: Your S3 bucket name
-5-Create a new file with the path .github/workflows/deploy-to-s3.yml
-6-Commit the changes
-7-After commiting go to the actions tab of your repository. There you should see any errors and the proccess.
-8-You can view this in the actions tab of your repository.
+5-Create a new file with the path .github/workflows/deploy-to-s3.yml 
+6-Paste the following code in order to deploy. [`deploymentcodeforS3.txt`](./deploymentcodeforS3.txt)
+7-Commit the changes
+8-After commiting go to the actions tab of your repository. There you should see any errors and the proccess.
+9-You can view this in the actions tab of your repository.
 
 
 
