@@ -19,12 +19,17 @@ The S3 bucket is used to store data. We will use it to host our staticwebsite an
 5-Save changes.
 
 #Unblock public bucket access
-1-Go to permissions and simply uncheck block public bucket access
+1-Go to permissions and simply uncheck block public bucket access.
 
 #Granting public access
 1-We follow again the console and find the S3 Bucket.
 2-Click permissions and find bucket policy ,then click edit, here bucket policies can be pasted.
 On the official guide this template is recommnded to be pasted and grant only public read access (see bucketpolicy) [`readtemplate.json`](./readtemplate.json).
+
+#index.html file
+This file will be the website, you can create one or borrow a template.
+I used this free template from Tooplate (https://www.tooplate.com/view/2137-barista-cafe). [`2137_barista_cafe`](./2137_barista_cafe)
+
 
 
 
